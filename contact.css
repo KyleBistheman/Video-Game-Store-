@@ -1,0 +1,53 @@
+/* title */
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: #00ff0080;
+}
+
+/* paragraph */
+p{
+	color: #00ff0080;
+	font-size: 20px
+}
+
+/* background */
+body {
+    font-family: Arial;
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+    overflow:hidden;
+}
+
+li {
+    display: inline;
+    float:left;
+}
+
+li a {
+    display: block;
+      padding: 8px;
+      Background-color: #00ff0080; <!--green transparency-->
+}
+
+/*text box sizes*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+/* background */
+.container {
+  border-radius: 5px;
+  background-color: #00ff0080;
+  padding: 20px;
+}

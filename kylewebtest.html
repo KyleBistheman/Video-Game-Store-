@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kyle's Video of wonder</title>
+    <!--style sheet starts here?-->
+    <style>
+    body{ 
+      background-image: url("Halo4.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+    }
+
+    h1{ 
+      Color:black;
+      text-align: center;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Sans Serif;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: grey;
+    }
+
+    .navbar a {
+      float: left;
+      color: black;
+      padding: 14px 16px;
+      text-decoration: underline;
+      font-size: 20px;
+    }
+
+    .navbar a:hover {
+      background-color: green;
+      color: black;
+    }
+    </style>
+
+    </head>
+    <body>
+	<div class="navbar">
+  	  <a href="kylewebtest.html">Home</a>
+  	  <a href="#news">News</a>
+  	  <a href="contact.html">Contact</a>
+	</div>
+    <h1>Welcome to Kyle's Video Game store!!!</h1>
+<p>
+    <iframe width="320" height="215" scr="<iframe width="568" height="315" src="https://www.youtube.com/embed/VzcEX8aqLa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p> 
+        
+    <p>
+	<button onclick="theFunction()">Click here</button>
+    </p>
+    <p style="color:white; ;"id="intro"></p>
+
+   <form id="form1">
+
+<select id="youroption">
+  <option value="">Choose One</option>
+  <option value="XBOX Games">XBOX</option>
+  <option value="PlayStation Games">PlayStation 2</option>
+  <option value="Nintendo Games">Nintendo</option>
+  <option value="Meta Games">Meta</option>
+</select></form>
+<p id="answer"></p>
+
+
+<script>
+
+   document.getElementById("form1").onchange=function() {
+	
+   option = document.getElementById("youroption").value;
+
+   document.getElementById("answer").innerHTML = option;
+}
+</script>
+
+<!-- this javascript creates a prompt. -->
+<script src="Javascript.js"></script>
+    </body>
+</html>
+
+
+ 

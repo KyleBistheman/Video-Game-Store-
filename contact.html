@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact US!</title>
+		<link rel="stylesheet" href="contact.css">
+	</head>
+	<body>
+		<!-- Create Navigation Bar -->
+		<ul>
+		  <!-- this will connect this to the main page --> 
+              <li><a href="kylewebtest.html">Home</a></li>
+		  <!-- HTML link will NOT be a function page --> 
+		  <!-- HTML will be just a dummy variable --> 
+              <li><a href="#html">HTML</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+        	</ul>
+		<!-- title --> 
+		<h1>Questions</h1>
+		<!-- tell them what to create --> 
+		<p>Please Add Your Name and Email along with your concerns and we will reach out to you soon</p>
+
+		<!-- create form --> 
+		<div class="container">
+  			<form>
+    				<label for="name">Name</label>
+    				<input type="text" id="name" name="name" placeholder="John Doe">
+
+    				<label for="email">Email</label>
+    				<input type="text" id="email" name="email" placeholder="johnDoe@email.com">
+
+    				<label for="subject">Concerns</label>
+    				<textarea id="subject" name="subject" placeholder="Write Any Concern(s)" style="height:200px"></textarea>
+
+    				<button onclick="theFunction()" style="color:gray">submit</button>
+  			</form>
+		</div>
+		<!-- create an alert that will let users know that info was "recieved" -->
+		<script>
+    			function theFunction(){
+        			alert("Thank You! \nYour Form Went Thru!");
+    			}
+		</script>
+	</body>
+</html>
