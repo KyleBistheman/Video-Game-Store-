@@ -2,19 +2,18 @@
 h1{
     font-family: cursive;
     text-align: center;
-    color: #00ff0080;
 }
 
 /* paragraph */
 p{
-	color: #00ff0080;
+	color: black;
 	font-size: 20px
 }
 
 /* background */
 body {
     font-family: Arial;
-    background-color: grey;
+    background-color: #AF8A94;
 }
 
 ul {
@@ -32,7 +31,7 @@ li {
 li a {
     display: block;
       padding: 8px;
-      Background-color: #00ff0080; <!--green transparency-->
+      Background-color: #8D8587; 
 }
 
 /*text box sizes*/
@@ -48,6 +47,6 @@ input[type=text], select, textarea {
 /* background */
 .container {
   border-radius: 5px;
-  background-color: #00ff0080;
+  background-color: #DE2758;
   padding: 20px;
 }
